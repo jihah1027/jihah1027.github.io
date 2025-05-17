@@ -1,0 +1,162 @@
+body {  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f7f9fc, #e8ebf0);
+  background: url('img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.navbar {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: #f5eee7 !important;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #000;
+  font-size: 1.05rem;
+}
+
+.nav-link:hover {
+  color: #f05454;
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed #ccc;
+  padding-bottom: 10px;
+}
+
+.lifestyle-item {
+  width: 40%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.lifestyle-item img {
+  width: 100%;
+  height: auto; 
+  display: block;
+  border-radius: 8px;
+}
+
+.lifestyle-item:hover {
+  transform: scale(1.02);
+}
+
+.lifestyle-container {
+  background-color: #fff;  
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.lifestyle-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.lifestyle-container a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.lifestyle-container a:hover {
+  text-decoration: underline;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.youtube-btn, .instagram-btn, .tiktok-btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  color: white;
+}
+
+
+.youtube-btn {
+  background-color: #f5eee7;
+}
+
+.youtube-btn:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+.instagram-btn {
+  background-color: #f5eee7;
+}
+
+.instagram-btn:hover {
+  background-color: #a52c6d;
+  color: white;
+
+}
+
+.tiktok-btn {
+  background-color: #f5eee7;
+}
+
+.tiktok-btn:hover {
+  background-color: #df1e88;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .lifestyle-item {
+    width: 100%;
+  }
+}
+
+.interactive-box {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+#chatBox div {
+  margin-bottom: 10px;
+}
+
+.user-message {
+  text-align: right;
+  color: #333;
+}
+
+.bot-message {
+  text-align: left;
+  color: #555;
+}
+
+
+.btn-theme {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-theme:hover {
+  background-color: #f05454;
+  color: white;
+}

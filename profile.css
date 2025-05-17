@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+    background: url('img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #4e342e;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #f5eee7 !important;
+  padding: 0.8rem 0;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #4e342e;
+  font-size: 1.05rem;
+}
+
+.nav-link:hover {
+  color: #a1887f;
+  text-decoration: none;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left-column {
+  background-color: #fdf8f3; /* lighter nude */
+  width: 35%;
+  padding: 30px;
+  box-sizing: border-box;
+  border-right: 2px solid #e0cfc2;
+  color: #4e342e;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.name-title {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-left: 5px solid #a1887f; /* accent mocha */
+}
+
+.name-title h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 700;
+  color: #4e342e;
+}
+
+.job-title {
+  font-weight: bold;
+  color: #5d4037;
+  margin-top: 5px;
+}
+
+.section {
+  margin-bottom: 25px;
+  color: #4e342e;
+}
+
+.section h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6d4c41;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d7ccc8;
+  padding-bottom: 5px;
+}
+
+.section p,
+.section span,
+.section a,
+.job p,
+.job ul li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4e342e;
+}
+
+.right-column {
+  width: 65%;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #4e342e;
+}
+
+.right-column .section {
+  margin-bottom: 30px;
+}
+
+.right-column .section ul li {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4e342e;
+}
+
+
+.job h3 {
+  font-size: 16px;
+  color: #a1887f;
+  margin-bottom: 5px;
+}
+
+.job .company {
+  font-style: italic;
+  font-size: 14px;
+  color: #6d4c41;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #6d4c41;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a1887f;
+}
+
+.meter {
+  background: #f3e5e1;
+  border-radius: 20px;
+  height: 12px;
+  margin: 6px 0 16px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.meter-fill {
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #a1887f, #8d6e63);
+  box-shadow: 0 0 5px #a1887f;
+  transition: width 0.4s ease-in-out;
+}
+
+.meter-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #5d4037;
+  margin-bottom: 2px;
+}
